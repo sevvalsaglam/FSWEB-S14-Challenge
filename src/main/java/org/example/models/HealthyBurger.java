@@ -19,6 +19,11 @@ public class HealthyBurger extends Hamburger{
     }
 
     @Override
+    public double getPrice() {
+        return super.getPrice()+ healthyExtra1Price+healthyExtra2Price;
+    }
+
+    @Override
     public double itemizeHamburger() {
         double totalPrice = super.itemizeHamburger(); // Base class'dan gelen fiyatı alır
 

@@ -10,6 +10,11 @@ public class DeluxeBurger extends Hamburger{
         this.drink=drink;
     }
 
+    @Override
+    public double getPrice() {
+        return 19.10;
+    }
+
     public DeluxeBurger() {
         super();
     }

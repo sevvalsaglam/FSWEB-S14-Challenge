@@ -34,7 +34,7 @@ public class Hamburger {
     }
 
     public double getPrice() {
-        return price;
+        return price + addition1Price+addition2Price+addition3Price+addition4Price;
     }
 
     public String getBreadRollType() {
